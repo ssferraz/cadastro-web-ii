@@ -1,0 +1,51 @@
+body{
+    background-color: antiquewhite;
+    
+}   
+
+.container{
+    background-color: burlywood;
+    width: 100vw;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+button{
+    width: 150px;
+}
+
+h5{
+    padding-top: 20px;
+}
+
+.file-upload {
+    position: relative;
+    display: inline-block;
+}
+
+.file-upload input[type="file"] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.file-upload-image {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-image: url('assets/profile.jpg');
+    background-size: cover;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.file-upload-image:hover {
+    border-color: #333;
+}
+
+#div-btn{
+    display: inline; 
+    padding-top: 15px;
+}
